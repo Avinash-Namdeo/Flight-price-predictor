@@ -3,8 +3,4 @@ pandas
 numpy
 scikit-learn
 seaborn
-<<<<<<< HEAD
 matplotlib
-=======
-matplotlib
->>>>>>> 74890b2febb6c6adf1a0458d76c68f07033b2488

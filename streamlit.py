@@ -10,8 +10,7 @@ with open('model.pkl', 'rb') as f:
 st.title("Flight Price Predictor")
 
 st.markdown("Fill out the flight details below to predict the ticket price.")
-st.markdown("""Note:  
-            Time Range
+st.markdown("""Time Range
             
             Early_Morning : 4:00 AM to 8:00 AM  
             

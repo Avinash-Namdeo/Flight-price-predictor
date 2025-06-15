@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
-import pickle
+import joblib
 import numpy as np
 
 # Load model
 with open('model.pkl', 'rb') as f:
-    model = pickle.load(f)
+    model = joblib.load(f)
 
 st.title("Flight Price Predictor")
 

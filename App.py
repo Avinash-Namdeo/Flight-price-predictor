@@ -1,11 +1,10 @@
 import streamlit as st
 import pandas as pd
-import joblib
+import cloudpickle
 import numpy as np
 
 # Load model
-with open('model.pkl', 'rb') as f:
-    model = joblib.load(f)
+model = cloudpickle.load(open('model.pkl', 'rb'))
 
 st.title("Flight Price Predictor")
 
